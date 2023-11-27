@@ -1,1 +1,24 @@
+:root {
+  /* colors */  
+  --primary: #1a83c6;
+  --secondary: #df6904;
 
+  /* typography */
+  --font: Roboto, Helvetica, sans-serif;
+
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  margin: 0;  
+  font-family: var(--font);
+}
+
+/* component class styles */
+
+.header { }
+
+.banner { }
+
+.trip-form { }
